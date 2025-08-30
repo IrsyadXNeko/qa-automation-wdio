@@ -1,7 +1,6 @@
 # WebdriverIO Selenium Project
 
-Automated testing project using WebdriverIO
- + Selenium.
+Automated testing project using WebdriverIO + Selenium.
 This project uses Mocha as the test framework and supports Allure Report for test result visualization.
 
 ---
