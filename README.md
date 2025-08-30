@@ -1,7 +1,8 @@
 # WebdriverIO Selenium Project
 
-Automated testing project menggunakan **[WebdriverIO](https://webdriver.io/)** + Selenium.  
-Project ini menggunakan **Mocha** sebagai test framework dan mendukung **Allure Report** untuk visualisasi hasil test.
+Automated testing project using WebdriverIO
+ + Selenium.
+This project uses Mocha as the test framework and supports Allure Report for test result visualization.
 
 ---
 
@@ -15,7 +16,7 @@ Project ini menggunakan **Mocha** sebagai test framework dan mendukung **Allure 
 ---
 
 ## ⚙️ Setup & Installation
-1. Clone repo ini
+1. Clone this repo
 ```bash
 git clone <repo-url>
 cd project
@@ -26,7 +27,7 @@ cd project
 npm install
 ```
 
-3. Pastikan Node.js terinstall minimal versi 18:
+3. Make sure Node.js is installed with at least version 18:
 ```bash
 node -v
 ```
@@ -34,17 +35,17 @@ node -v
 ---
 
 ## ▶️ Running Tests
-1. Run semua test
+1. Run all tests
 ```bash
 npm run wdio
 ```
 
-2. Run salah satu file test
+2. Run a specific test file
 ```bash
 npx wdio run ./wdio.conf.js --spec ./test/specs/test.e2e.positif.js
 ```
 
-3. Run lebih dari satu test file
+3. Run multiple test files
 ```bash
 npx wdio run ./wdio.conf.js --spec ./test/specs/login.e2e.js ./test/specs/dashboard.e2e.js
 ```
@@ -52,17 +53,17 @@ npx wdio run ./wdio.conf.js --spec ./test/specs/login.e2e.js ./test/specs/dashbo
 ---
 
 ## 📊 Allure Report
-1. Jalankan test
+1. Run tests
 ```bash
 npm run wdio
 ```
 
-2. Buka report di browser
+2. Open the report in the browser
 ```bash
 npm run allure:open
 ```
 
-Generate allure report sudah diset automatis setelah menjalankan test berakhir
+The Allure report is automatically generated after the test execution is completed
 
 ---
 
