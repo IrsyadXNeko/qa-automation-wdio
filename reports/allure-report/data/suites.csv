@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7875","should login with valid credentials","","Sun Aug 31 02:42:13 WIB 2025","passed","Sun Aug 31 02:42:20 WIB 2025","","My Login application","",""
+"","9522","Login with valid credentials","","Sun Aug 31 03:08:37 WIB 2025","passed","Sun Aug 31 03:08:46 WIB 2025","","My Login application","",""
+"","4475","Login with invalid password","","Sun Aug 31 02:53:49 WIB 2025","passed","Sun Aug 31 02:53:54 WIB 2025","","My Login application","",""
+"","17695","Login with invalid username","","Sun Aug 31 02:53:31 WIB 2025","passed","Sun Aug 31 02:53:49 WIB 2025","","My Login application","",""
